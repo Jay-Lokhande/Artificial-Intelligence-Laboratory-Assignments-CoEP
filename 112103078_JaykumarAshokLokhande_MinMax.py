@@ -4,6 +4,7 @@ class Game:
     def __init__(self):
         self.initialize_game()
 
+
     def heuristic(self):
         # Example heuristic: prioritize positions closer to the center
         center_value = 1
